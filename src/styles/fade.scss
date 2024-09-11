@@ -1,0 +1,79 @@
+.container.mainPage {
+    animation: mainPageFadeIn 1s ease-in-out;
+}
+
+@keyframes mainPageFadeIn {
+    from {
+        width: 95%;
+        opacity: 0;
+    }
+
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.container.aboutMePage {
+    animation: aboutMePageFadeIn 1s ease-in-out;
+}
+
+@keyframes aboutMePageFadeIn {
+    from {
+        opacity: 0;
+        color: var(--color-primary-active);
+    }
+
+    to {
+        opacity: 1;
+        color: var(--color-primary);
+    }
+}
+
+.container.skillsPage {
+    animation: skillsPageFadeIn 1s ease-in-out;
+}
+
+@keyframes skillsPageFadeIn {
+    from {
+        opacity: 0;
+        color: var(--color-primary-active);
+    }
+
+    to {
+        opacity: 1;
+        color: var(--color-primary);
+    }
+}
+
+.container.lastExpPage {
+    animation: lastExpPageFadeIn 1s ease-in-out;
+}
+
+@keyframes lastExpPageFadeIn {
+    from {
+        opacity: 0;
+        color: var(--color-primary-active);
+    }
+
+    to {
+        opacity: 1;
+        color: var(--color-primary);
+    }
+}
+
+.container.projectsPage {
+    animation: projectsPageFadeIn 1s ease-in-out;
+}
+
+@keyframes projectsPageFadeIn {
+    from {
+        opacity: 0;
+        color: var(--color-primary-active);
+    }
+
+    to {
+        opacity: 1;
+        color: var(--color-primary);
+    }
+}

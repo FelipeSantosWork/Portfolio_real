@@ -1,0 +1,74 @@
+button {
+    background: none;
+    color: var(--color-primary);
+    border: none;
+    font-size: 1.4rem;
+    transition: transform 0.4s ease-out;
+    font-family: var(--font-primary);
+
+    &:hover {
+        filter: drop-shadow(0 0 20px rgb(25, 0, 165));
+        transform: scale(1.05);
+        cursor: pointer;
+        color: var(--color-primary-hover)
+    }
+
+    &:active {
+        color: var(--color-primary-active);
+    }
+}
+
+.backBtn__div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.4rem;
+
+    button {
+        display: flex;
+        align-items: center;
+        background: none;
+        gap: 10%;
+        border: none;
+
+        &:hover {
+            filter: drop-shadow(0 0 25px rgb(161, 194, 194));
+            border: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+    }
+
+}
+
+.more__btn {
+    font-weight: 100;
+    font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .more__btn {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    button {
+        font-size: 2rem;
+    }
+
+    .backBtn__div {
+        position: fixed;
+        bottom: 10vh;
+        right: 10vh;
+    }
+
+    .more__btn {
+        font-size: 1.1rem;
+        font-weight: 200;
+    }
+
+}

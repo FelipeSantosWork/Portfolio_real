@@ -1,0 +1,56 @@
+.title1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.title2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.title3 {
+    font-weight: 300;
+    font-size: 1.05rem;
+}
+
+.title4 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.title5 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.name {}
+
+@media only screen and (min-width: 600px) {
+    .title1 {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+
+    .title2 {
+        font-weight: 400;
+        font-size: 2.5rem;
+    }
+
+    .title3 {
+        font-weight: 300;
+        font-size: 1.55rem;
+    }
+
+    .title4 {
+        font-weight: 300;
+        font-size: 1.75rem;
+    }
+
+    .title5 {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+    .name {}
+
+}

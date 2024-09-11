@@ -1,0 +1,258 @@
+body {
+    display: flex;
+    justify-content: center;
+
+    font-family: var(--font-primary);
+    max-width: 3000px;
+    max-height: 500px;
+    color: var(--color-primary);
+
+    animation: gradient-animation 3s ease-in-out infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background: linear-gradient(-20deg, var(--color0), var((--color-degree0)));
+    }
+
+    1.67% {
+        background: linear-gradient(-20deg, var(--color1), var((--color-degree1)));
+    }
+
+    3.33% {
+        background: linear-gradient(-20deg, var(--color2), var((--color-degree2)));
+    }
+
+    5% {
+        background: linear-gradient(-20deg, var(--color3), var((--color-degree3)));
+    }
+
+    6.67% {
+        background: linear-gradient(-20deg, var(--color4), var((--color-degree4)));
+    }
+
+    8.33% {
+        background: linear-gradient(-20deg, var(--color5), var((--color-degree5)));
+    }
+
+    10% {
+        background: linear-gradient(-20deg, var(--color6), var((--color-degree6)));
+    }
+
+    11.67% {
+        background: linear-gradient(-20deg, var(--color7), var((--color-degree7)));
+    }
+
+    13.33% {
+        background: linear-gradient(-20deg, var(--color8), var((--color-degree8)));
+    }
+
+    15% {
+        background: linear-gradient(-20deg, var(--color9), var((--color-degree9)));
+    }
+
+    16.67% {
+        background: linear-gradient(-20deg, var(--color10), var((--color-degree10)));
+    }
+
+    18.33% {
+        background: linear-gradient(-20deg, var(--color11), var((--color-degree11)));
+    }
+
+    20% {
+        background: linear-gradient(-20deg, var(--color12), var((--color-degree12)));
+    }
+
+    21.67% {
+        background: linear-gradient(-20deg, var(--color13), var((--color-degree13)));
+    }
+
+    23.33% {
+        background: linear-gradient(-20deg, var(--color14), var((--color-degree14)));
+    }
+
+    25% {
+        background: linear-gradient(-20deg, var(--color15), var((--color-degree15)));
+    }
+
+    26.67% {
+        background: linear-gradient(-20deg, var(--color16), var((--color-degree16)));
+    }
+
+    28.33% {
+        background: linear-gradient(-20deg, var(--color17), var((--color-degree17)));
+    }
+
+    30% {
+        background: linear-gradient(-20deg, var(--color18), var((--color-degree18)));
+    }
+
+    31.67% {
+        background: linear-gradient(-20deg, var(--color19), var((--color-degree19)));
+    }
+
+    33.33% {
+        background: linear-gradient(-20deg, var(--color20), var((--color-degree20)));
+    }
+
+    35% {
+        background: linear-gradient(-20deg, var(--color21), var((--color-degree21)));
+    }
+
+    36.67% {
+        background: linear-gradient(-20deg, var(--color22), var((--color-degree22)));
+    }
+
+    38.33% {
+        background: linear-gradient(-20deg, var(--color23), var((--color-degree23)));
+    }
+
+    40% {
+        background: linear-gradient(-20deg, var(--color24), var((--color-degree24)));
+    }
+
+    41.67% {
+        background: linear-gradient(-20deg, var(--color25), var((--color-degree25)));
+    }
+
+    43.33% {
+        background: linear-gradient(-20deg, var(--color26), var((--color-degree26)));
+    }
+
+    45% {
+        background: linear-gradient(-20deg, var(--color27), var((--color-degree27)));
+    }
+
+    46.67% {
+        background: linear-gradient(-20deg, var(--color28), var((--color-degree28)));
+    }
+
+    48.33% {
+        background: linear-gradient(-20deg, var(--color29), var((--color-degree29)));
+    }
+
+    50% {
+        background: linear-gradient(-20deg, var(--color30), var((--color-degree30)));
+    }
+
+    51.67% {
+        background: linear-gradient(-20deg, var(--color29), var((--color-degree29)));
+    }
+
+    53.33% {
+        background: linear-gradient(-20deg, var(--color28), var((--color-degree28)));
+    }
+
+    55% {
+        background: linear-gradient(-20deg, var(--color27), var((--color-degree27)));
+    }
+
+    56.67% {
+        background: linear-gradient(-20deg, var(--color26), var((--color-degree26)));
+    }
+
+    58.33% {
+        background: linear-gradient(-20deg, var(--color25), var((--color-degree25)));
+    }
+
+    60% {
+        background: linear-gradient(-20deg, var(--color24), var((--color-degree24)));
+    }
+
+    61.67% {
+        background: linear-gradient(-20deg, var(--color23), var((--color-degree23)));
+    }
+
+    63.33% {
+        background: linear-gradient(-20deg, var(--color22), var((--color-degree22)));
+    }
+
+    65% {
+        background: linear-gradient(-20deg, var(--color21), var((--color-degree21)));
+    }
+
+    66.67% {
+        background: linear-gradient(-20deg, var(--color20), var((--color-degree20)));
+    }
+
+    68.33% {
+        background: linear-gradient(-20deg, var(--color19), var((--color-degree19)));
+    }
+
+    70% {
+        background: linear-gradient(-20deg, var(--color18), var((--color-degree18)));
+    }
+
+    71.67% {
+        background: linear-gradient(-20deg, var(--color17), var((--color-degree17)));
+    }
+
+    73.33% {
+        background: linear-gradient(-20deg, var(--color16), var((--color-degree16)));
+    }
+
+    75% {
+        background: linear-gradient(-20deg, var(--color15), var((--color-degree15)));
+    }
+
+    76.67% {
+        background: linear-gradient(-20deg, var(--color14), var((--color-degree14)));
+    }
+
+    78.33% {
+        background: linear-gradient(-20deg, var(--color13), var((--color-degree13)));
+    }
+
+    80% {
+        background: linear-gradient(-20deg, var(--color12), var((--color-degree12)));
+    }
+
+    81.67% {
+        background: linear-gradient(-20deg, var(--color11), var((--color-degree11)));
+    }
+
+    83.33% {
+        background: linear-gradient(-20deg, var(--color10), var((--color-degree10)));
+    }
+
+    85% {
+        background: linear-gradient(-20deg, var(--color9), var((--color-degree9)));
+    }
+
+    86.67% {
+        background: linear-gradient(-20deg, var(--color8), var((--color-degree8)));
+    }
+
+    88.33% {
+        background: linear-gradient(-20deg, var(--color7), var((--color-degree7)));
+    }
+
+    90% {
+        background: linear-gradient(-20deg, var(--color6), var((--color-degree6)));
+    }
+
+    91.67% {
+        background: linear-gradient(-20deg, var(--color5), var((--color-degree5)));
+    }
+
+    93.33% {
+        background: linear-gradient(-20deg, var(--color4), var((--color-degree4)));
+    }
+
+    95% {
+        background: linear-gradient(-20deg, var(--color3), var((--color-degree3)));
+    }
+
+    96.67% {
+        background: linear-gradient(-20deg, var(--color2), var((--color-degree2)));
+    }
+
+    98.33% {
+        background: linear-gradient(-20deg, var(--color1), var((--color-degree1)));
+    }
+
+    100% {
+        background: linear-gradient(-20deg, var(--color0), var((--color-degree0)));
+    }
+}
